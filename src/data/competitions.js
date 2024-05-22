@@ -1,7 +1,13 @@
+import Cover1 from "../../../public/assets/covers/1.png";
+import Cover2 from "../../../public/assets/covers/2.png";
+import Cover3 from "../../../public/assets/covers/3.png";
+import Cover4 from "../../../public/assets/covers/4.png";
+import Cover5 from "../../../public/assets/covers/5.png";
+
 export const competitions = [
   {
     id: 1,
-    image: "../../../public/assets/covers/1.png",
+    image: Cover1,
     level: "National",
     category: "Photography",
     name: "National Photography Festival 2024",
@@ -16,7 +22,7 @@ export const competitions = [
   },
   {
     id: 2,
-    image: "../../../public/assets/covers/2.png",
+    image: Cover2,
     level: "International",
     category: "Photography",
     name: "International Photography Festival 2024",
@@ -31,7 +37,7 @@ export const competitions = [
   },
   {
     id: 3,
-    image: "../../../public/assets/covers/3.png",
+    image: Cover3,
     level: "National",
     category: "Photography",
     name: "National Photo Contest 2024",
@@ -46,7 +52,7 @@ export const competitions = [
   },
   {
     id: 4,
-    image: "../../../public/assets/covers/4.png",
+    image: Cover4,
     level: "National",
     category: "Photography",
     name: "Photo Challenge 2024",
@@ -61,7 +67,7 @@ export const competitions = [
   },
   {
     id: 5,
-    image: "../../../public/assets/covers/5.png",
+    image: Cover5,
     level: "National",
     category: "Photography",
     name: "Jogja Photo Festival 2024",
@@ -76,7 +82,7 @@ export const competitions = [
   },
   {
     id: 6,
-    image: "../../../public/assets/covers/1.png",
+    image: Cover1,
     level: "National",
     category: "Photography",
     name: "UNY Photography Competition 2024",
@@ -91,7 +97,7 @@ export const competitions = [
   },
   {
     id: 7,
-    image: "../../../public/assets/covers/4.png",
+    image: Cover4,
     level: "National",
     category: "Photography",
     name: "Annual Photo Contest 2024",
@@ -106,7 +112,7 @@ export const competitions = [
   },
   {
     id: 8,
-    image: "../../../public/assets/covers/5.png",
+    image: Cover5,
     level: "National",
     category: "Photography",
     name: "Jogja International Photo Festival 2024",
@@ -121,7 +127,7 @@ export const competitions = [
   },
   {
     id: 9,
-    image: "../../../public/assets/covers/1.png",
+    image: Cover1,
     level: "National",
     category: "Photography",
     name: "Photo Exhibition 2024",
