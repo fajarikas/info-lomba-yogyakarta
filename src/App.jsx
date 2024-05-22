@@ -6,6 +6,7 @@ import Home from "./Pages/Home/Home";
 import Competition from "./Pages/Competition/Competition";
 import Navbar from "./Components/Navbar/Nav";
 import Footer from "./Components/Footer/Footer";
+import CompetitionMenu from "./Components/Competitions/CompetitionMenu";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/competition" element={<Competition />} />
+        <Route path="/competition/academic" element={<CompetitionMenu />} />
       </Routes>
       <Footer />
     </Router>

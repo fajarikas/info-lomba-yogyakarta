@@ -2,10 +2,10 @@ import React from "react";
 import { competitions } from "../../data/competitions";
 import "../../assets/css/styles-home.css";
 
-const RecomendedCompetitions = () => {
+const CompetitionMenu = () => {
   return (
-    <div className="grid grid-cols-3 gap-y-10 mt-12  mx-auto w-full max-w-screen-2xl justify-center">
-      {competitions.slice(0, 6).map((data, key) => {
+    <div className="grid grid-cols-3 gap-y-10 mt-12  w-full ">
+      {competitions.map((data, key) => {
         return (
           <div className="card mx-auto" key={key}>
             <a href="">
@@ -27,4 +27,4 @@ const RecomendedCompetitions = () => {
   );
 };
 
-export default RecomendedCompetitions;
+export default CompetitionMenu;

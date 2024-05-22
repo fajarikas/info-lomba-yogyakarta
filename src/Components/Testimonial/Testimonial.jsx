@@ -1,6 +1,7 @@
 import React from "react";
 import Subtitle from "../Text/Subtitle";
 import { testimonial } from "../../data/testimonial";
+import "../../assets/css/styles-home.css";
 
 const Testimonial = () => {
   return (
@@ -14,7 +15,7 @@ const Testimonial = () => {
                 <p class="testimonial-text">{data.testimonial}</p>
                 <img src={data.image} alt="User 1" class="user-photo" />
                 <h4 class="user-name">{data.name}</h4>
-                <p class="user-university">{data.university}</p>
+                <p class="user-university">{data.organization}</p>
               </div>
             </div>
           );

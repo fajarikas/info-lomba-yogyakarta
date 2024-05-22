@@ -7,16 +7,19 @@
       "category": "Fotografi",
       "name": "Festival Foto Jogja #3 2024",
       "date": "17 Mei 2024, 14:25",
-      "views": 325
+      "views": 325,
+      "type": "academic"
     },
     {
       "id": 2,
       "image": "../../../public/assets/covers/2.png",
-      "level": "National",
+      "level": "Internasional",
       "category": "Fotografi",
       "name": "Festival Foto Jogja #3 2024",
       "date": "17 Mei 2024, 14:25",
-      "views": 325
+      "views": 325,
+      "type": "academic"
+      
     },
     {
       "id": 3,
@@ -25,7 +28,9 @@
       "category": "Fotografi",
       "name": "Festival Foto Jogja #3 2024",
       "date": "17 Mei 2024, 14:25",
-      "views": 325
+      "views": 325,
+      "type": "academic"
+
     },
     {
       "id": 4,
@@ -34,7 +39,9 @@
       "category": "Fotografi",
       "name": "Festival Foto Jogja #3 2024",
       "date": "17 Mei 2024, 14:25",
-      "views": 325
+      "views": 325,
+      "type": "non-academic"
+
     },
     {
       "id": 5,
@@ -43,7 +50,9 @@
       "category": "Fotografi",
       "name": "Festival Foto Jogja #3 2024",
       "date": "17 Mei 2024, 14:25",
-      "views": 325
+      "views": 325,
+      "type": "non-academic"
+
     },
     {
       "id": 6,
@@ -52,7 +61,42 @@
       "category": "Fotografi",
       "name": "Festival Foto Jogja #3 2024",
       "date": "17 Mei 2024, 14:25",
-      "views": 325
+      "views": 325,
+      "type": "non-academic"
+
+    },
+    {
+      "id": 4,
+      "image": "../../../public/assets/covers/4.png",
+      "level": "National",
+      "category": "Fotografi",
+      "name": "Festival Foto Jogja #3 2024",
+      "date": "17 Mei 2024, 14:25",
+      "views": 325,
+      "type": "non-academic"
+
+    },
+    {
+      "id": 5,
+      "image": "../../../public/assets/covers/5.png",
+      "level": "National",
+      "category": "Fotografi",
+      "name": "Festival Foto Jogja #3 2024",
+      "date": "17 Mei 2024, 14:25",
+      "views": 325,
+      "type": "non-academic"
+
+    },
+    {
+      "id": 6,
+      "image": "../../../public/assets/covers/1.png",
+      "level": "National",
+      "category": "Fotografi",
+      "name": "Festival Foto Jogja #3 2024",
+      "date": "17 Mei 2024, 14:25",
+      "views": 325,
+      "type": "non-academic"
+
     }
   ]
 
