@@ -7,6 +7,8 @@ import Competition from "./Pages/Competition/Competition";
 import Navbar from "./Components/Navbar/Nav";
 import Footer from "./Components/Footer/Footer";
 import CompetitionMenu from "./Components/Competitions/CompetitionMenu";
+import About from "./Pages/About/About";
+import UploadCompetition from "./Pages/UploadCompetition/UploadCompetition";
 
 function App() {
   return (
@@ -14,8 +16,9 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/competition" element={<Competition />} />
-        <Route path="/competition/academic" element={<CompetitionMenu />} />
+        <Route path="/competition/all" element={<Competition />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/upload/competition" element={<UploadCompetition />} />
       </Routes>
       <Footer />
     </Router>

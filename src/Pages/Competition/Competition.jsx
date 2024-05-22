@@ -50,7 +50,7 @@ const Competition = () => {
         </div>
 
         <div className="mt-10 flex justify-end">
-          <HomeButton text="Upload Lomba" link={"/competition"} />
+          <HomeButton text="Upload Lomba" link={"/upload/competition"} />
         </div>
 
         <div className="container mt-10">

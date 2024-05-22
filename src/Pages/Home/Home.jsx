@@ -9,11 +9,24 @@ import Faq from "../../Components/Faq/Faq";
 import Partnership from "../../Components/Partnership/Partnership";
 import Hero from "../../Components/Hero/Hero";
 import Testimonial from "../../Components/Testimonial/Testimonial";
+import HeroLeft from "../../Components/Hero/HeroLeft";
 
 const Home = () => {
   return (
     <div>
       <Hero />
+      <HeroLeft
+        image={Trophy}
+        sub="About Us"
+        head="Berbagi Semangat Kompetisi untuk Membentuk Generasi Pemenang"
+        content=" Skuylomba adalah website informasi perlombaan yang berfokus didaerah
+            Yogyakarta. Kami percaya bahwa kompetisi adalah kunci untuk
+            membentuk generasi pemenang. Kami berkomitmen untuk menyediakan
+            platform yang memotivasi dan menginspirasi individu untuk mengejar
+            ambisi mereka, "
+        buttonText="Lanjutkan"
+        link="/about"
+      />
       <div>
         <p className="text-center mt-5">SKUY LOMBA!</p>
         <Subtitle text="Rekomendasi Lomba" />
