@@ -1,20 +1,22 @@
+import Logo from "../../public/assets/images/skuy-lomba-images/Logo-SkuyLomba-Landscape.png"
+
 export const partnership = [
     {
         "id" : 1,
-        "logo" : "../../../public/assets/images/skuy-lomba-images/Logo-SkuyLomba-Landscape.png"
+        "logo" : Logo
     },
     {
         "id" : 2,
-        "logo" : "../../../public/assets/images/skuy-lomba-images/Logo-SkuyLomba-Landscape.png"
+        "logo" : Logo
     },
     {
         "id" : 3,
-        "logo" : "../../../public/assets/images/skuy-lomba-images/Logo-SkuyLomba-Landscape.png"
+        "logo" : Logo
 
     },
     {
         "id" : 4,
-        "logo" : "../../../public/assets/images/skuy-lomba-images/Logo-SkuyLomba-Landscape.png"
+        "logo" : Logo
 
     }
 ]

@@ -1,8 +1,8 @@
-import Cover1 from "../../../public/assets/covers/1.png";
-import Cover2 from "../../../public/assets/covers/2.png";
-import Cover3 from "../../../public/assets/covers/3.png";
-import Cover4 from "../../../public/assets/covers/4.png";
-import Cover5 from "../../../public/assets/covers/5.png";
+import Cover1 from "../../public/assets/covers/1.png"
+import Cover2 from "../../public/assets/covers/2.png"
+import Cover3 from "../../public/assets/covers/3.png"
+import Cover4 from "../../public/assets/covers/4.png"
+import Cover5 from "../../public/assets/covers/5.png"
 
 export const competitions = [
   {
