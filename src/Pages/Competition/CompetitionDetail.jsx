@@ -32,9 +32,12 @@ const CompetitionDetail = () => {
       <div class="page-container">
         <div class="container mt-5">
           <div class="upload-container">
-            <a href="upload.html">
-              <button class="upload-button">Upload Lomba</button>
-            </a>
+            <button
+              onClick={() => navigate("/upload/competition")}
+              class="upload-button"
+            >
+              Upload Lomba
+            </button>
           </div>
         </div>
         <div class="gambar">
