@@ -38,10 +38,13 @@ const Home = () => {
       </div>
 
       <div className="mt-20">
-        <Subtitle text="FAQ" />
-        <Faq />
-
-        <Partnership />
+        <div id="faq">
+          <Subtitle text="FAQ" />
+          <Faq />
+        </div>
+        <div id="partnership">
+          <Partnership />
+        </div>
         <Testimonial />
       </div>
     </div>

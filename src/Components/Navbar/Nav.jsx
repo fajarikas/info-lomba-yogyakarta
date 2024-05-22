@@ -1,20 +1,26 @@
 import React from "react";
-// import Logo from "./assets/images/logos/Logo-SkuyLomba-Landscape.png";
 import Logo from "../../../public/assets/images/logos/Logo-SkuyLomba-Landscape.png";
 import "../../assets/css/styles-home.css";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
-  const navigate = useNavigate();
+  function handleLinkClick(event, targetId) {
+    const targetElement = document.getElementById(targetId);
+    if (targetElement) {
+      event.preventDefault();
+      targetElement.scrollIntoView({ behavior: "smooth" });
+    }
+  }
+
   return (
     <nav className="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a
-          onClick={() => navigate("/")}
+        <Link
+          to="/"
           className="cursor-pointer flex items-center space-x-3 rtl:space-x-reverse"
         >
           <img src={Logo} className="h-8" alt="" />
-        </a>
+        </Link>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <button
             id="get-started-btn"
@@ -40,9 +46,9 @@ const Nav = () => {
             >
               <path
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M1 1h15M1 7h15M1 13h15"
               />
             </svg>
@@ -54,30 +60,32 @@ const Nav = () => {
         >
           <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             <li>
-              <a
-                onClick={() => navigate("/about")}
-                className="cursor-pointer nav-link"
-              >
+              <Link to="/about" className="cursor-pointer nav-link">
                 Tentang Kami
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                onClick={() => navigate("/competition/all")}
-                className="cursor-pointer nav-link"
-              >
+              <Link to="/competition/all" className="cursor-pointer nav-link">
                 Kompetisi
-              </a>
+              </Link>
             </li>
             <li>
-              <a onClick={() => navigate("/about")} className="nav-link">
+              <Link
+                to="/#partnership"
+                className="nav-link cursor-pointer"
+                onClick={(e) => handleLinkClick(e, "partnership")}
+              >
                 Kerjasama
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="home.html#faq" className="nav-link">
+              <Link
+                to="/#faq"
+                className="nav-link cursor-pointer"
+                onClick={(e) => handleLinkClick(e, "faq")}
+              >
                 FAQ
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
