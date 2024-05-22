@@ -9,6 +9,7 @@ import Footer from "./Components/Footer/Footer";
 import CompetitionMenu from "./Components/Competitions/CompetitionMenu";
 import About from "./Pages/About/About";
 import UploadCompetition from "./Pages/UploadCompetition/UploadCompetition";
+import CompetitionDetail from "./Pages/Competition/CompetitionDetail";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/competition/all" element={<Competition />} />
+        <Route path="/competition/:id" element={<CompetitionDetail />} />
         <Route path="/about" element={<About />} />
         <Route path="/upload/competition" element={<UploadCompetition />} />
       </Routes>

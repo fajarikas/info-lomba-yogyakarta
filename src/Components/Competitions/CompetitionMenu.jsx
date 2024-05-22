@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"; // Langkah 1
 import { competitions } from "../../data/competitions";
 import "../../assets/css/styles-home.css";
 
@@ -8,9 +9,11 @@ const CompetitionMenu = () => {
       {competitions.map((data, key) => {
         return (
           <div className="card mx-auto" key={key}>
-            <a href="">
+            <Link to={`/competition/${data.id}`}>
+              {" "}
+              {/* Langkah 2 & 3 */}
               <img src={data.image} alt="Event 1" />
-            </a>
+            </Link>
             <div className="">
               <div className="category">{data.level}</div>
               <div className="type">{data.category}</div>
